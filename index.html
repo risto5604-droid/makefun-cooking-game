@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sizzle &amp; Serve — the 60-second diner rush</title>
+<style>
+  body { margin: 0; background: #3e2723; display: flex; align-items: center; justify-content: center; min-height: 100vh; font-family: sans-serif; }
+  #wrap { text-align: center; }
+  canvas { background: #f7e8d0; border-radius: 12px; box-shadow: 0 8px 40px rgba(0,0,0,.5); max-width: 96vw; }
+  p { color: #d7ccc8; font-size: 14px; margin: 10px 0 0; }
+  p b { color: #ffd54f; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game" width="960" height="680"></canvas>
+  <p><b>How to play:</b> click the glowing ingredient (or press 1–9) in order to build each ticket's dish, before its timer runs out. 3 strikes and the kitchen closes.</p>
+</div>
+<script src="game.js"></script>
+</body>
+</html>
